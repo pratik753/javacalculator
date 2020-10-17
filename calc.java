@@ -59,15 +59,15 @@ f.setIconImage(icon);
 
 		///
 			b1.setBackground(Color.red);
-		b2.setBackground(Color.green);
-		b3.setBackground(Color.blue);
-		b6.setBackground(Color.pink);
-		b7.setBackground(Color.blue);
-		b11.setBackground(Color.red);
-		b14.setBackground(Color.green);
-		b15.setBackground(Color.blue);
-		b16.setBackground(Color.pink);
+		b4.setBackground(Color.green);
+		b6.setBackground(Color.blue);
+		b9.setBackground(Color.pink);
+		b10.setBackground(Color.blue);
+		b12.setBackground(Color.red);
+		b15.setBackground(Color.green);
 		b17.setBackground(Color.blue);
+		b16.setBackground(Color.pink);
+		b15.setBackground(Color.blue);
 		///
 		f.add(tf);
 		g=new GridLayout(4,4,10,20);
