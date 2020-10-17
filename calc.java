@@ -166,37 +166,5 @@ f.setIconImage(icon);
 			tf.setText("");
 			c=5;
 		}
-		if(e.getSource()==b16){
-			s2=tf.getText();
-			if(c==1){
-				n=Integer.parseInt(s1)+Integer.parseInt(s2);
-				tf.setText(String.valueOf(n));
-			}
-			else if(c==2){
-				n=Integer.parseInt(s1)-Integer.parseInt(s2);
-				tf.setText(String.valueOf(n));
-			}
-			else if(c==3){
-				n=Integer.parseInt(s1)*Integer.parseInt(s2);
-				tf.setText(String.valueOf(n));
-			}
-			else if(c==4){
-				n=Integer.parseInt(s1)/Integer.parseInt(s2);
-				tf.setText(String.valueOf(n));
-			}
-			else if(c==5){
-				n=Integer.parseInt(s1)%Integer.parseInt(s2);
-				tf.setText(String.valueOf(n));
-			}
-						
-		}
-		if(e.getSource()==b17){
-			tf.setText("");
-		}
-	
-	}
-	public static void main(String[] args) 
-	{
-		calc v=new calc();
-	}
+
 }
